@@ -48,6 +48,7 @@ class Server:
     msg = ' > awaiting connections ...'
     print(msg, end='\r')
 
+    sleep(2)
     while not self.victims:
       sleep(1)
 
