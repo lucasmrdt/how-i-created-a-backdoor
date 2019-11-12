@@ -1,6 +1,6 @@
 # How I Create A Backdoor 😎
 
-![Linux-ok](https://img.shields.io/badge/Linux-ok-green) ![MacOS-ok](https://img.shields.io/badge/MacOS-ok-green) ![Window-ok](https://img.shields.io/badge/Window-todo-lightgrey)
+![Linux-ok](https://img.shields.io/badge/Linux-ok-green) ![MacOS-ok](https://img.shields.io/badge/MacOS-ok-green) ![Window-ok](https://img.shields.io/badge/Window-todo-lightgrey) [![presentation](https://img.shields.io/badge/presentation-a)](https://slides.com/kysterdraw/how-i-create-a-backdoor)
 
 ## ⚠️ Disclaimer
 > Any actions and or activities related to the material contained within this repository is solely your responsibility. The misuse of the information in this website can result in criminal charges brought against the persons in question. The author will not be held responsible in the event any criminal charges be brought against any individuals misusing the information in this repository to break the law.
