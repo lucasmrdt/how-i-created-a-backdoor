@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
 import socket
-import threading
 import os
 import sys
+from threading import Thread
 from time import sleep
 from bullet import ScrollBar, utils
 
@@ -38,7 +38,7 @@ class Server:
     self.server = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # Create TCP server
     self.server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) # Allow REUSEADDR to avoid error while another server is already running
     self.server.bind(('', PORT)) # Bind server on PORT
-    threading.Thread(target=self._listen).start()
+    Thread(target=self._listen).start()
 
   def close(self):
     self.server.close()
