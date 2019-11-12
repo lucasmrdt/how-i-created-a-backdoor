@@ -33,7 +33,7 @@ nc $VICTIM-IP 8080
 
 ## 💪🏻 Advanced Backdoor
 ### Description
-This advanced backdoor allow to bypass the firewall and to communicate outside subnetwork.
+This advanced backdoor allows to bypass the firewall and to communicate outside subnetwork.
 Now the victim is just a client, the attacker is the server. When the victim is connected to the attacker's server, he'll execute command provided by the attacker and then send it back its output.
 You can configure `PORT` and `DNS` inside the files [backdoor-client.py](./advanced-backdoor/backdoor-client.py) and [backdoor-server.py](./advanced-backdoor/backdoor-server.py).
 
